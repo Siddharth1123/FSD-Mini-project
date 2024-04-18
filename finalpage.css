@@ -1,0 +1,32 @@
+#thankyou_text {
+  font-size: 80px;
+  color: rgb(227, 24, 55);
+  text-align: center;
+}
+#orderconfirm_text {
+  font-size: 50px;
+  text-align: center;
+}
+#shop_again {
+  font-size: 20px;
+  color: rgb(227, 24, 55);
+  text-align: center;
+}
+#shop_again:hover {
+  font-style: underline;
+  cursor: pointer;
+  background-color: rgb(227, 24, 55);
+  color: white;
+  border-radius: 5px;
+}
+body {
+  background-color: rgb(255, 215, 215);
+  /* border: 1px solid black; */
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,1 @@
+The website name is PizzaPoint, which is a clone of dominos.com and this webisite is used to order fresh and tasty pizzas, beverages and desserts. I have built this project with a timeframe of 4 days. Deployed link of this: https://pizzatown.netlify.app/

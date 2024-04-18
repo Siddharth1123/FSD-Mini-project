@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(233, 233, 233);
+}
+#body {
+  padding: 5px 150px 5px 150px;
+}
+
+form > h1 {
+  color: #e4002b;
+  text-align: center;
+}
+body {
+  background-color: rgb(233, 233, 233);
+}
+#checkout-div {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  height: 100vh;
+  width: 30vw;
+}
+#form-div {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 60px;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  justify-content: center;
+}
+
+form input {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  border: 0;
+  outline: none;
+  width: 90%;
+  font-size: 15px;
+}
+
+form label {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 10px;
+}
+label {
+  color: rgb(1, 89, 129);
+  font-weight: 600;
+}
+
+h2,
+h1,
+h3 {
+  font-family: One Dot Condensed Bold, Arial Narrow, Arial, Helvetica,
+    sans-serif;
+}
+
+#confirm-button,
+#back-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "One Dot Condensed Bold", "Arial Narrow", Arial, Helvetica,
+    sans-serif;
+  font-size: 15px;
+  border-color: white;
+  background-color: rgb(227, 24, 55);
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#confirm-div {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 786px) {
+  #checkout-div {
+    width: 100%;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 4px 12px;
+  }
+  #back-button {
+    left: 80%;
+  }
+}
+
+#confirm-button:hover,
+#back-button:hover {
+  background-color: rgb(145, 3, 24);
+}

@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+#body {
+  padding: 5px 150px 5px 150px;
+}
+
+/* login div */
+
+#login_div {
+  width: 40vw;
+
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+#sub_div {
+  padding: 70px 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#wrong_email,
+#wrong_password {
+  color: red;
+  font-size: 14px;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,
+    rgba(255, 255, 255, 0.2) 0 0 12px, rgba(177, 165, 192, 0.6) 1px 1px 4px,
+    rgba(57, 31, 91, 0.32) 4px 4px 16px;
+}
+
+form input[type="text"],
+input[type="password"] {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  border: 0;
+  outline: none;
+  width: 90%;
+  font-size: 15px;
+}
+#small_font {
+  font-size: 14px;
+}
+
+label {
+  color: #006491;
+  font-weight: 600;
+}
+span {
+  color: rgb(117, 3, 3);
+  text-decoration: underline;
+}
+
+form input[type="submit"] {
+  /* background-color: #dbdbdb; */
+  border-radius: 100px;
+
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 25px;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+form input[type="submit"]:hover {
+  background-color: #354050;
+  color: white;
+}
+
+#login-form {
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.check {
+  margin: 10px;
+}
+h2,
+h1,
+h3 {
+  font-family: One Dot Condensed Bold, Arial Narrow, Arial, Helvetica,
+    sans-serif;
+}
+.create-account {
+  font-family: One Dot Condensed Bold, Arial Narrow, Arial, Helvetica,
+    sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(31, 31, 31);
+  font-size: 1.8em;
+  line-height: 1;
+  margin: 0 0 0.25em;
+  padding-top: 0.25em;
+  text-transform: uppercase;
+  outline: 0;
+}
+#bottom-line-join-now {
+  font-size: 120%;
+}
+@media screen and (max-width: 786px) {
+  #login_div {
+    width: 100%;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 4px 12px;
+  }
+}

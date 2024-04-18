@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="src css/menu.css">
+    <link rel="stylesheet" href="src css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div id="nav">
+        <img onclick="window.location.href='index.html';" id="logo-img" src="images/logo.png" alt="logo">
+        <div id="menu">
+
+            <h2 onclick="window.location.href='menu.html';">MENU</h2>
+
+
+
+        </div>
+        <div id="location">
+            <input id="location_input" placeholder="search by name"> </h3>
+            <button id="location_btn">Search</button>
+
+        </div>
+        <div onclick="window.location.href='log-in.html';" id="sign-in">
+            <h1>LOG IN </h1>
+
+        </div>
+        <br> <br>
+        <h2 id="signout"></h2>
+        <div onclick="window.location.href='cart.html';" id="cart">
+            <img id="cart-icon" src="images/shopping-cart.png" alt="">
+            <h3>CART</h3>
+        </div>
+
+    </div>
+
+
+    <br><br><br><br><br><br>
+
+
+
+
+    <h1 class="menu-top-heading">PIZZA'S NATIONAL MENU</h1>
+    <p class="menu-top-body">This is the Domino's national menu. To see prices, coupons and exactly what items are
+        available to you, select your local store.</h1>
+    <div id="filter-box">
+
+        <div>
+            <input type="Number" placeholder="minimum price" id="min-price-input">
+            <p>to</p>
+            <input type="Number" placeholder="maximum price" id="max-price-input">
+
+        </div>
+
+
+        <select id="filter">
+            <option value="">Filter By Prices</option>
+            <option value="Low to High">Low to High</option>
+            <option value="High to Low">High to Low</option>
+        </select>
+    </div>
+
+    <div class="menu-heading-div">
+        <h2 class="menu-heading">FLAVOURS OF EAST</h2>
+
+    </div>
+
+    <div id="product-container">
+        <!-- Here Append All the Products  -->
+
+    </div>
+    <br><br>
+    <div class="menu-heading-div">
+        <h2 class="menu-heading">Beverages</h2>
+    </div>
+
+    <div id="beverage-container">
+
+    </div>
+    <br><br>
+    <div class="menu-heading-div">
+        <h2 class="menu-heading">Sides</h2>
+    </div>
+    <div id="Sides-container"> </div>
+    <br><br><br>
+    <div class="menu-heading-div">
+        <h2 class="menu-heading">Desserts</h2>
+    </div>
+
+    <div id="desserts-container">
+
+    </div><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="footer1">
+        <div class="footer-list">
+            <h3>Find Coupons</h3>
+            <h3>Look at Our Menu </h3>
+            <h3>Our Gallery</h3>
+            <h3>Corporate Careers</h3>
+            <h3>Company Responsibipty</h3>
+            <h3>Read Our Blog</h3>
+        </div>
+        <div class="footer-list">
+            <h3>About Us</h3>
+            <h3>Contact Us</h3>
+            <h3>FAQs</h3>
+            <h3>Culture</h3>
+            <h3>Pizza Newsroom</h3>
+
+
+            <h3>Our App</h3>
+        </div>
+        <div><img src="images/logo.png" alt="logo"></div>
+        <div id="footer-signup">
+            <h1>Sign up Here</h1>
+            <input type="email" placeholder="Enter your email id">
+            <button onclick="window.location.href='sign-up.html';">Sign Up</button>
+        </div>
+
+    </div>
+    <div id="footer2">
+        <p>Any Delivery Charge is not a tip paid to your driver. Please reward your driver for awesomeness. Drivers
+            carry less than $20. You must ask for this limited time offer. Minimum purchase required for delivery.
+            Delivery charge and tax may apply. Prices, participation, delivery area and charges may vary. Returned
+            checks, along with the state's maximum allowable returned check fee, may be electronically presented to your
+            bank.
+
+
+            <br>
+            <br>
+            To easily find a local Pizza Town's Pizza restaurant or when searching for "pizza near me", please visit our
+            localized mapping website featuring nearby Pizza Town''s Pizza stores available for delivery or takeout.
+            <br>
+            <br>
+            If you are using a screen reader and are having problems using this website, please call 800-252-4031 for
+            assistance.
+            <br><br><br><br><br>
+            Privacy Policy | | Updated 01/2023 |Terms of Use | Our Cookies and Ads | Do Not Sell My Personal Information
+            | Accessibility Statement |
+            <br><br><br>
+        </p>
+    </div>
+
+
+
+</body>
+<script src="src js/menu.js"></script>
+
+</html>

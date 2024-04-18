@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="src css/checkout.css">
+    <link rel="stylesheet" href="src css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="nav">
+        <img onclick="window.location.href='index.html';" id="logo-img" src="images/logo.png" alt="logo">
+        <div id="menu">
+
+            <h2 onclick="window.location.href='menu.html';">MENU</h2>
+
+        </div>
+        <div id="location">
+
+            <input id="location_input" placeholder="search by name"> </h3>
+            <button onclick="window.location.href='menu.html';" id="location_btn">Search</button>
+        </div>
+        <div onclick="window.location.href='log-in.html';" id="sign-in">
+            <h1>LOG IN </h1>
+
+        </div>
+        <br> <br>
+        <h2 id="signout"></h2>
+        <div onclick="window.location.href='cart.html';" id="cart">
+            <img id="cart-icon" src="images/shopping-cart.png" alt="">
+            <h3>CART</h3>
+        </div>
+
+    </div>
+    <br><br><br><br><br>
+
+    <a href="cart.html"><button id="back-button">Back</button></a>
+    <div id="form-div">
+        <form>
+            <h1>CHECKOUT</h1>
+            <label>Address</label>
+            <input id="adress" type="text">
+            <label>Card Number</label>
+            <input id="card_number" type="number">
+            <label>Cardholder Name</label>
+            <input id="Name" type="text">
+            <label>Expiry Date</label>
+            <input id="Expiry_Date" type="date">
+            <label>CVV</label>
+            <input id="CVV" type="number">
+            <h2 id="checkout_successful"></h2>
+            <div id="confirm-div">
+                <button id="confirm-button">Confirm Payment</button>
+            </div>
+        </form>
+
+
+    </div>
+
+</body>
+<script src="src js/checkout.js"></script>
+
+</html>
